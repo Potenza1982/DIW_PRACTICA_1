@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="../DIW_PROYECTO1_Bootstrap/assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ONE PAGE -->
+    <div class="main-container">
+        <!-- NAVBAR -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark custom-navbar">
+                <a class="navbar-brand" href="#"> POTENZA STYLE </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto"> <!-- Cambiamos mr-auto por ml-auto para alinear a la derecha -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#presentacion">Presentación</a>
+                        </li>
+                        <li class="nav-item d-xs-none"> <!-- Se oculta en tamaño MD -->
+                            <a class="nav-link" href="#caracteristicas">Características</a>
+                        </li>
+                        <li class="nav-item d-xs-none"> <!-- Se oculta en tamaño LG -->
+                            <a class="nav-link" href="#beneficios">Beneficios</a>
+                        </li>
+                        <li class="nav-item d-xs-none"> <!-- Se oculta en tamaño LG -->
+                            <a class="nav-link" href="#compra">Compra</a>
+                        </li>
+                        <li class="nav-item d-xs-none"> <!-- Se oculta en tamaño LG -->
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- INICIO - PrimeraFila LOGO + TITULO -->
+        <section class="page-section" id="inicio"></section>
+        <!-- ALINEACIÓN DE FILAS -->
+        <div class="container-fluid">
+            <div class="PrimeraFila container-fluid">
+                <div class="row py-5 justify-content-center">
+                    <div class="col-md-5 align-self-center gx-0 order-1">
+                        <img src="../DIW_PROYECTO1_Bootstrap/assets/img/LogoPotenzaStyleNegroTransparente.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-6 text-center gx-0 align-self-center order-2">
+                        <h1 class="text-warning">¿POR QUÉ NOSOTROS?</h1>
+                        <h2 class="text-light">El lugar donde tus sueños se convierten en realidad...</h2>
+                    </div>
+                </div>
+
+                <div class="row bg-warning py-5 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-6 text-center">
+                        <h2 class="text-dark">POTENZA STYLE</h2>
+                        <h3 class="text-light">Disfruta de un sabor único</h3>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-center">
+                        <a href="#presentacion"> <!-- Agregamos el enlace con href="#presentacion" -->
+                            <button class="btn col-md-3 btn-light" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-walking" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM6.44 3.752A.75.75 0 0 1 7 3.5h1.445c.742 0 1.32.643 1.243 1.38l-.430 4.083a1.75 1.75 0 0 1-.088.395l-.318.906.213.242a.75.75 0 0 1 .114.175l2 4.25a.75.75 0 1 1-1.357.638l-1.956-4.154-1.68-1.921A.75.75 0 0 1 6 8.96l.138-2.613-.435.489-.464 2.786a.75.75 0 1 1-1.48-.246l.5-3a.75.75 0 0 1 .18-.375l2-2.25Z" />
+                                    <path
+                                        d="M6.25 11.745v-1.418l1.204 1.375.261.524a.75.75 0 0 1-.12.231l-2.5 3.25a.75.75 0 1 1-1.19-.914l2.345-3.048Zm4.22-4.215-.494-.494.205-1.843a1.93 1.93 0 0 0 .006-.067l1.124 1.124h1.44a.75.75 0 0 1 0 1.5H11a.75.75 0 0 1-.531-.22Z" />
+                                </svg> Comencemos
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- PRESENTACION -->
+        <section class="page-section" id="presentacion">
+            <div class="container-fluid mt-5">
+                <div class="text-center">
+                    <h2 class="text-dark bg-warning m-0">PRESENTACIÓN</h2>
+                </div>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2017/03/23/15/48/buffet-2168675_1280.jpg" class="d-block w-100" alt="Buffet">
+                            <div class="carousel-caption d-none d-md-block text-warning">
+                                <h5><strong>Nuestro Buffet</strong></h5>
+                                <p><strong>Un espacio ideal para comenzar el día con energía y positividad.</strong></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/07/07/06/coffeehouse-2600877_1280.jpg" class="d-block w-100" alt="Cafetería">
+                            <div class="carousel-caption d-none d-md-block text-warning">
+                                <h5><strong>Nuestra Cafetería</strong></h5>
+                                <p><strong>Un lugar exclusivo para saborear los mejores cafés del mundo.</strong></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2020/06/30/15/03/table-5356682_1280.jpg" class="d-block w-100"
+                                alt="Restaurante Sala">
+                            <div class="carousel-caption d-none d-md-block text-warning">
+                                <h5><strong>Nuestro Restaurante</strong></h5>
+                                <p><strong>Un destino gastronómico excepcional para deleitar los sentidos en el más alto
+                                        nivel.</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+
+        <!-- CARACTERÍSTICAS -->
+        <section class="page-section" id="caracteristicas">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <h2 class="text-dark bg-warning m-0">CARACTERÍSTICAS</h2>
+                </div>
+                <div class="SegundaFila row py-5 justify-content-center">
+                    <div class="row col-md-12">
+                        <!-- Primera Característica -->
+                        <div class="col-md-4 justify-content-center text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 13.662l-.667-.655C5.247 11.86 2 9.35 2 6.5 2 4.008 4.008 2 6.5 2c1.65 0 3.155.95 4.5 2.432C11.345 2.95 12.85 2 14.5 2 15.88 2 17 3.12 17 4.5c0 2.85-3.247 5.36-5.333 6.507L8 13.662z" />
+                            </svg>
+                            <h4>Sabor Delicioso</h4>
+                            <p>Disfruta de un sabor delicioso que satisfará tus papilas gustativas.</p>
+                        </div>
+                        <!-- Segunda Característica -->
+                        <div class="col-md-4 justify-content-center text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm3.97 4.525a.5.5 0 0 0-.805-.07L6.446 10.694 4.335 8.558a.5.5 0 0 0-.75.653l2.5 3a.5.5 0 0 0 .805.07l5-6a.5.5 0 0 0 .07-.652z" />
+                            </svg>
+                            <h4>Saludable</h4>
+                            <p>Este producto es saludable y beneficioso para tu bienestar.</p>
+                        </div>
+                        <!-- Tercera Característica -->
+                        <div class="col-md-4 justify-content-center text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-leaf" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.5 1.143a4.978 4.978 0 0 1 3.823 1.812c.488.586.92 1.26 1.256 2.006.337.748.547 1.533.547 2.38 0 .325-.028.662-.078 1.016-.051.358-.123.69-.203.992a12.245 12.245 0 0 0-.485 2.213c-.134.836-.372 1.904-.915 2.615a.5.5 0 0 1-.853-.355a15.662 15.662 0 0 1 .615-2.684a4.144 4.144 0 0 1-.284-1.727c.066-.844.257-1.86.57-2.638a5.078 5.078 0 0 0-.748.204a5.028 5.028 0 0 0-1.337.576a5.093 5.093 0 0 0-1.597-1.216a4.978 4.978 0 0 0-2.238-.38c-.54.076-1.282.272-1.898.682c-.67.445-1.346 1.153-1.988 1.96c-.688.901-1.354 2.107-1.493 3.65a.5.5 0 0 1-.814.364c-.248-.289-.522-.648-.814-.364C.223 10.958.5 9.944.5 8.5c0-2.073 1.129-3.737 3.553-4.293-.345-.505-.611-1.08-.78-1.71a.5.5 0 0 1 .576-.616c.666.111 1.104.707 1.54.058c.097.124.193.312a4.972 4.972 0 0 1 1.68-.373z" />
+                            </svg>
+                            <h4>Nutritivo</h4>
+                            <p>Rico en nutrientes esenciales para una alimentación saludable.</p>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <!-- Cuarta Característica -->
+                        <div class="col-md-4 justify-content-center text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-clock" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.293 3.293a1 1 0 1 0-1.414 1.414l1.148 1.147-.884 2.868a1 1 0 1 0 1.514.514l2.667-4.667a1 1 0 0 0-1.6-1.2l-3 5a1 1 0 0 0 .8 1.6h5a1 1 0 1 0 0-2H7.5a1 1 0 1 0 0 2H9.52l3.35-5.916a1 1 0 0 0-.08-1.12l-3-4a1 1 0 0 0-1.56 1.24l2.937 3.925L5.292 3.293z" />
+                            </svg>
+                            <h4>Rápido y Fácil</h4>
+                            <p>Preparación rápida y sencilla para tus comidas cotidianas.</p>
+                        </div>
+                        <!-- Quinta Característica -->
+                        <div class="col-md-4 justify-content-center text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-cup" viewBox="0 0 16 16">
+                                <path
+                                    d="M11 4.414V2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-2.414l-2 2V15h4v-2.586l-2-2zM5.293 0.293a1 1 0 0 1 1.414 0l5 5a1 1 0 0 1 0 1.414l-2 2a1 1 0 0 1-1.414 0l-5-5a1 1 0 0 1 0-1.414l2-2z" />
+                                <path
+                                    d="M4 1.236v4.865L1 11h10l-3.245-5.899V1.236A.25.25 0 0 1 7.255 1H6.745a.25.25 0 0 1-.255.236z" />
+                            </svg>
+                            <h4>Calidad Premium</h4>
+                            <p>Productos de alta calidad que te proporcionan una experiencia culinaria excepcional.
+                            </p>
+                        </div>
+                        <!-- Sexta Característica -->
+                        <div class="col-md-4 justify-content-center text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-star" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1.293l1.777 4.72a.5.5 0 0 0 .814 0l1.777-4.72l4.782.013a.5.5 0 0 0 .287-.868l-3.803-3.287l.959-4.651a.5.5 0 0 0-.725-.527L8 5.597l-3.89-3.365a.5.5 0 0 0-.726.526l.96 4.651L.15 5.138a.5.5 0 0 0 .287.867l4.782-.012z" />
+                                <path d="M8 0a.5.5 0 0 0 .5.5h.5a.5.5 0 0 0 0-1h-.5a.5.5 0 0 0-.5.5z" />
+                            </svg>
+                            <h4>Opiniones Positivas</h4>
+                            <p>Respaldado por opiniones positivas de clientes satisfechos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section class="page-section" id="beneficios">
+            <div class="container-fluid">
+                <div class="text-center mt-5">
+                    <h2 class="text-dark bg-warning">BENEFICIOS</h2>
+                </div>
+
+                <div class="TerceraFila row justify-content-around">
+                    <div class="beneficio col-12 col-sm-6 col-md-6 col-lg-3">
+                        <img src="https://img.freepik.com/foto-gratis/camareros-felices-trayendo-comida-mesa-sirviendo-grupo-amigos-restaurante_637285-4076.jpg?w=740&t=st=1699003531~exp=1699004131~hmac=d8c1bcb314f3aeebcf29ed0595cc4fea15a0476894771e4b6c81268993180e68" alt="Beneficio 1">
+                        <h3>CAMAREROS</h3>
+                        <p>Brindamos un servicio excepcional en nuestras mesas para satisfacer a nuestros clientes.
+                        </p>
+                    </div>
+
+                    <div class="beneficio col-12 col-sm-6 col-md-6 col-lg-3">
+                        <img src="https://img.freepik.com/foto-gratis/grupo-cocineros-trabajando-cocina_53876-42734.jpg?w=740&t=st=1699003460~exp=1699004060~hmac=71ca77f5620342c4c533f9d4f3d4f1db84bdb13f29236cce70232ee8b3b8bcfa" alt="Beneficio 2">
+                        <h3>COCINEROS</h3>
+                        <p>Cocineros experimentados y actualizados en las últimas tendencias gastronómicas.</p>
+                    </div>
+
+                    <div class="beneficio col-12 col-sm-6 col-md-6 col-lg-3">
+                        <img src="https://img.freepik.com/foto-gratis/chef-cocinando-comida-cocina-restaurante_53876-67.jpg?w=740&t=st=1699003879~exp=1699004479~hmac=c0a8d25f5129ad79ea80ea63af49b82514a8567395f4b22e3c1755453602d403" alt="Beneficio 3">
+                        <h3>COCINA</h3>
+                        <p>Contamos con cocinas modernas, espaciosas y totalmente equipadas que cumplen con todos
+                            los
+                            estándares de seguridad e higiene.</p>
+                    </div>
+
+                    <div class="beneficio col-12 col-sm-6 col-md-6 col-lg-3">
+                        <img src="https://cdn.pixabay.com/photo/2015/09/14/11/43/restaurant-939437_1280.jpg" alt="Beneficio 4">
+                        <h3>PLATOS</h3>
+                        <p>Ofrecemos una amplia variedad de platos, que incluyen tanto opciones típicas de España
+                            como
+                            exquisitas propuestas culinarias de todo el mundo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPRA -->
+        <section class="page-section" id="compra">
+            <div class="container-fluid">
+                <div class="text-center mt-5">
+                    <h2 class="text-dark bg-warning m-0">COMPRA</h2>
+                </div>
+
+                <div class="CuartaFila container-fluid">
+                    <div class="row py-5 justify-content-center">
+                        <div class="col-md-6 col-lg-6 text-center gx-0 align-self-center">
+                            <h1 class="text-danger m-5">PRUEBALOS</h1>
+                            <h2 class="text-warning mb-5">Saborea el POTENZA STYLE</h2>
+                            <a href="https://www.amazon.es/" target="_blank"
+                                class="btn btn-danger btn-lg mb-5">COMPRA</a>
+                        </div>
+                        <div class="col-md-6 col-lg-5 align-self-center gx-0 text-center">
+                            <img src="https://img.freepik.com/foto-gratis/tarros-miel-panal_95678-373.jpg?w=740&t=st=1699003977~exp=1699004577~hmac=ce2415846331e24e7dc31e46b720db055869756e35732631a6ba4ea5b51eeb4b" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO / FORMULARIO -->
+        <section class="page-section" id="contacto">
+            <div class="container-fluid">
+                <div class="text-center mt-5">
+                    <h2 class="text-dark bg-warning m-0">CONTACTO</h2>
+                </div>
+
+                <div class="QuintaFila container-fluid py-5">
+                    <div class="row justify-content-center bg-warning m-5">
+                        <div class="col-12 col-md-5 col-lg-5">
+                            <div class="m-3">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name"><strong>Nombre:</strong></label>
+                                        <input class="form-control" type="text" name="name" id="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastname"><strong>Apellidos:</strong></label>
+                                        <input class="form-control" type="text" name="lastname" id="lastname">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="description"><strong>Descripción:</strong></label>
+                                        <textarea class="form-control" id="description"></textarea>
+                                    </div>
+                                    <div class="mt-3 text-right text-light">
+                                        <input class="btn btn-dark" type="submit" value="Enviar" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-5">
+                            <div class="m-5 text-center">
+                                <h3 class="bg-warning rounded p-2 text-white">Contacta con nosotros</h3>
+                                <p>
+                                    <strong>Tú eres lo más importante para nosotros. Estaremos disponibles las 24
+                                        horas
+                                        al día
+                                        para solucionar cualquiera de tus dudas.</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PIE -->
+        <div class="row bg-dark justify-content-center p-1 mt-2">
+            <div class="col-12 w-100">
+                <div class="text-center text-white mt-2 mb-0">
+                    Esta página ha sido realizada por Miguel Angel Barragán Campos
+                    </p>
+                </div>
+            </div>
+            <div class="row bg-light justify-content-center p-1">
+                <div class="col-2 col-md-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </div>
+                <div class="col-2 col-md-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                </div>
+                <div class="col-2 col-md-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Otro contenido HTML -->
+    <script src="scripts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Eliminar el subrayado azul de los enlaces */
+a {
+  text-decoration: none;
+  /* Quita el subrayado */
+  color: inherit;
+  /* Usa el color heredado (generalmente negro) */
+}
+
+/* Eliminar el subrayado azul de los botones activos */
+button:focus {
+  outline: none;
+  /* Quita el borde al enfocar un botón */
+}
+
+.PrimeraFila {
+  background-image: url('../img/cocinaMediterraneaOpaca.png');
+  background-size: cover;
+  /* Hacer que la imagen de fondo cubra todo el contenedor */
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 14px;
+  height: 100%;
+}
+
+.CuartaFila {
+  background-image: url('https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg');
+  background-size: cover;
+  /* Hacer que la imagen de fondo cubra todo el contenedor */
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 14px;
+
+}
+
+.QuintaFila {
+  background-image: url('https://img.freepik.com/foto-gratis/conjunto-cubiertos-tenedor-cuchillo-cuchara-aisladas-sobre-fondo-blanco_1212-919.jpg?w=740&t=st=1699004589~exp=1699005189~hmac=1d92b4f3b3cd5a43eb5cb044ee22691adf613f6c688726ce557fc13ef00a2a02');
+  background-size: cover;
+  /* Hacer que la imagen de fondo cubra todo el contenedor */
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 14px;
+}
+
+.SextaFila {
+  color: white;
+
+}
+
+.titulo {
+  font-family: 'Titillium Web', Arial, Verdana, sans-serif;
+  font-size: 3.5rem;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.custom-navbar {
+  margin-right: 0;
+  /* Establece el margen derecho a 0 para el navbar */
+}
+
+.SegundaFila p {
+  color: black;
+}
+
+.beneficios-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.beneficio {
+  text-align: center;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.beneficio img {
+  max-width: 100%;
+}
+
+/* Distribución diferente para el Beneficio 2 */
+.beneficio:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+/* Otras propiedades de estilo según tus necesidades */
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* Estilo personalizado para el botón */
+button.btn.btn-light {
+  width: 180px;
+  height: 70px;
+}
+
+/* LG */
+@media (min-width: 992px) {
+  #my-row {
+    float: left;
+    text-align: center;
+  }
+}
